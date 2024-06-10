@@ -2,7 +2,7 @@
 
 # Define variables
 DIRECTORY="negpod_13-q1"
-FILES=("main.sh" "students-list_1023.txt" "select-emails.sh" "student-emails.txt")
+FILES=("main.sh" "students-list_0524.txt" "select-emails.sh" "student-emails.txt")
 
 # Create the directory if it doesn't exist
 if [ ! -d "$DIRECTORY" ]; then
