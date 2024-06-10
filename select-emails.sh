@@ -8,5 +8,5 @@ if [ ! -f "$STUDENT_FILE" ]; then
     exit 1
 fi
 
-cut -d',' -f2 "$STUDENT_FILE" > "$EMAIL_FILE"
+cut -d',' -f2 "$STUDENT_FILE" >> "$EMAIL_FILE"
 echo "Student emails have been saved to $EMAIL_FILE."
